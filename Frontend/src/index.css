@@ -14,4 +14,8 @@ body {
   background-size: cover;
 }
 
-
+@layer components {
+  .chat {
+    @apply w-[80%] h-fit p-2 bg-gray-700 text-white flex justify-between;
+  }
+}

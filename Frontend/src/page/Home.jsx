@@ -16,6 +16,22 @@ export const Home = () => {
           <div className="w-full h-full bg-amber-700">
             <div className="w-full h-full mt-52 flex flex-col ju items-center space-y-7">
               <h1 className="">Hey, User. Ready to dive in?</h1>
+
+              <div className="chat">
+                <img
+                  src="logo.webp"
+                  alt=""
+                  srcset=""
+                  className="size-[25px] m-4 bg-gray-600"
+                />
+                <p className="w-[80%] text-[20px]">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+                  corrupti delectus pariatur debitis sed. Consectetur natus ad
+                  ipsa cumque nostrum exercitationem accusamus eligendi laborum
+                  qui, rerum tenetur non sunt sit.
+                </p>
+              </div>
+
               <div className="w-[80%] h-fit flex items-center px-5 py-3 rounded-[10px] bg-amber-500 space-x-2">
                 <input
                   type="text"
