@@ -24,7 +24,7 @@ export const Home = () => {
                   srcset=""
                   className="size-[25px] m-4 bg-gray-600"
                 />
-                <p className="w-[80%] text-[20px]">
+                <p className="w-[90%] text-[18px]">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
                   corrupti delectus pariatur debitis sed. Consectetur natus ad
                   ipsa cumque nostrum exercitationem accusamus eligendi laborum
