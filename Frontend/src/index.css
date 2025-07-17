@@ -10,9 +10,9 @@ body {
 }
 
 .landing {
-  width: 1000px;
-  height: 100px;
-  background-image: url("openAi.png");
+  width: auto;
+  height: auto;
+  background-image: url("OpenAi.png");
   background-position: center;
   background-size: cover;
 }
