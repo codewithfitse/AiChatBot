@@ -3,17 +3,17 @@ import React from "react";
 export const Home = () => {
   return (
     <>
-      <div className="w-full h-auto flex bg-amber-500">
-        <aside className="w-[20%] h-auto bg-amber-950">
+      <div className="w-full min-h-full flex bg-black text-white">
+        <aside className="w-[20%] h-auto bg-gray-950">
           <h1 className="text-[30px] text-green-600 text-center">Home</h1>
         </aside>
-        <main className="w-full h-full flex flex-col items-center bg-amber-900">
-          <nav className="w-full h-[50px] flex justify-around items-center bg-amber-800">
-            <h1 className="text-white text-[20px]">FitseGpt</h1>
-            <h1 className="text-white text-[20px]">Home</h1>
-            <h1 className="text-white text-[20px]">Home</h1>
+        <main className="w-full h-full flex flex-col items-center bg-gray-900">
+          <nav className="w-full h-[50px] flex justify-around items-center bg-white/2">
+            <h1 className="text-[20px]">FitseGpt</h1>
+            <h1 className="text-[20px]">Home</h1>
+            <h1 className="text-[20px]">Home</h1>
           </nav>
-          <div className="w-full h-full pb-10 bg-amber-700">
+          <div className="w-full h-full pb-10 bg-transparent">
             <div className="w-full h-full mt-40 flex flex-col ju items-center space-y-7">
               <h1 className="">Hey, User. Ready to dive in?</h1>
 
