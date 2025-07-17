@@ -16,10 +16,10 @@ export const Home = () => {
             </ul>
           </nav>
 
-          <div className="w-full h-auto flex pt-10 mt-[500px]">
+          <div className="w-full flex pt-10 mt-[50px]">
             <h1 className="text-[30px] text-green-600">Home</h1>
           </div>
-          <div className="w-full h-auto flex pl-10 mt-[500px]">
+          <div className="w-full flex justify-center pl-10 pt-[500px]">
             <h1 className="text-[30px] text-green-600">Home</h1>
           </div>
         </div>
