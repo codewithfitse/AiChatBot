@@ -9,5 +9,12 @@ body {
   background: #000;
 }
 
+.landing {
+  width: 1000px;
+  height: 100px;
+  background-image: url("openAi.png");
+  background-position: center;
+  background-size: cover;
+}
 
 
