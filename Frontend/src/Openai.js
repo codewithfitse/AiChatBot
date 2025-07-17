@@ -7,7 +7,7 @@ const openai = new OpenAI({
 
 export async function sendMsgToOpenAi(message) {
   const res = await openai.chat.completions.create({
-    model: "gpt-3.5-turbo", // Use chat models now (they're cheaper + faster)
+    model: "gpt-3.5-turbo", // Use chat models now (they're cheaper + faster)G
     messages: [{ role: "user", content: message }],
     temperature: 0.7,
     max_tokens: 556,
