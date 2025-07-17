@@ -3,7 +3,7 @@ import React from "react";
 export const Home = () => {
   return (
     <>
-      <div className="w-full h-screen flex bg-amber-500">
+      <div className="w-full h-auto flex bg-amber-500">
         <aside className="w-[20%] h-auto bg-amber-950">
           <h1 className="text-[30px] text-green-600 text-center">Home</h1>
         </aside>
@@ -13,9 +13,22 @@ export const Home = () => {
             <h1 className="text-white text-[20px]">Home</h1>
             <h1 className="text-white text-[20px]">Home</h1>
           </nav>
-          <div className="w-full h-full bg-amber-700">
-            <div className="w-full h-full mt-52 flex flex-col ju items-center space-y-7">
+          <div className="w-full h-full pb-10 bg-amber-700">
+            <div className="w-full h-full mt-40 flex flex-col ju items-center space-y-7">
               <h1 className="">Hey, User. Ready to dive in?</h1>
+
+              <div className="chat">
+                <img
+                  src="logo.webp"
+                  alt=""
+                  srcset=""
+                  className="size-[25px] m-4 bg-gray-600"
+                />
+                <p className="w-[90%] text-[18px]">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+                  corrupti delectus pariatur debitis sed.
+                </p>
+              </div>
 
               <div className="chat">
                 <img
