@@ -9,13 +9,13 @@ export const Home = () => {
         </aside>
         <main className="w-full h-full flex flex-col items-center bg-amber-900">
           <nav className="w-full h-[50px] flex justify-around items-center bg-amber-800">
-            <h1 className="text-white text-[20px]">Home</h1>
+            <h1 className="text-white text-[20px]">FitseGpt</h1>
             <h1 className="text-white text-[20px]">Home</h1>
             <h1 className="text-white text-[20px]">Home</h1>
           </nav>
           <div className="w-full h-full bg-amber-700">
             <div className="w-full h-full mt-52 flex flex-col ju items-center space-y-7">
-              <h1 className="">Hey, Fitsum. Ready to dive in?</h1>
+              <h1 className="">Hey, User. Ready to dive in?</h1>
               <div className="w-[80%] h-fit flex items-center px-5 py-3 rounded-[10px] bg-amber-500 space-x-2">
                 <input
                   type="text"
