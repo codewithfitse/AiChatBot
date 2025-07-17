@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { sendMsgToOpenAi } from "../Openai";
 
 export const Home = () => {
+  const [input, setInput] = useState("");
+
+  const handleClick = async () => {
+    const res = await sendMsgToOpenAi(input);
+    console.log(res);
+  };
+
   return (
     <>
       <div className="w-full min-h-full flex bg-black text-white">
@@ -50,10 +58,16 @@ export const Home = () => {
               <div className="w-[80%] h-fit flex items-center px-5 py-3 rounded-[10px] bg-gray-950 space-x-2">
                 <input
                   type="text"
+                  name={input}
+                  value={input}
                   className="w-full h-[50px] p-3 bg-gray-900 rounded-[5px] placeholder:text-white"
                   placeholder="Type whats on your mind?"
+                  onChange={(e) => setInput(e.target.value)}
                 />
-                <button className="px-3 bg-white text-black text-[30px] rounded-[5px]">
+                <button
+                  className="px-3 bg-white text-black text-[30px] rounded-[5px]"
+                  onClick={handleClick}
+                >
                   ✓
                 </button>
               </div>
